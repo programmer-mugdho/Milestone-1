@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5px;
+    padding-left: 2px;
+}
+
+.half-width img {
+    width: 100%;
+    position: relative;
+    left: 250px;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.text {
+    position: relative;
+    left: 95px;
+}
+
+.Hello {
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+.Farhan {
+    font-family: 'Cuprum', sans-serif;
+    color: #ff1493;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.p {
+    color: grey;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.a {
+    font-family: 'Oleo Script', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-image: linear-gradient(45deg, #ed4b6e, #ec5299);
+}
+
+.top-part {
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.middle-part {
+    background-image: url("./images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Hello-Tuminol-Basi {
+    position: relative;
+    right: 150px;
+    top: 50px;
+}
+
+.Tuminol-Basi {
+    position: relative;
+    left: 250px;
+    top: 220px;
+}
+
+.latest-work {
+    padding-top: 5%;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5%;
+}
+
+.latest-work h1 {
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.column {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1;
+}
+
+.column img {
+    width: 100%;
+}
+
+.row {
+    padding: 0 5%;
+}
+
+.center {
+    text-align: center;
+}
+
+.experience {
+    position: relative;
+    left: 425px;
+}
+
+progress[value] {
+    width: 500px;
+    height: 50px;
+    border-radius: 0px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: blue;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 2px;
+}
+
+.size {
+    font-size: 40px;
+}
+
+.experiences {
+    background-image: url(images/header-bg.png);
+    background-repeat: none;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.leave {
+    background-image: linear-gradient(45deg, #ed4b6e, #ec5299);
+    text-align: center;
+    width: 600px;
+    height: 190px;
+    border-radius: 10px;
+    position: relative;
+    left: 377px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.client {
+    background-image: url(./images/footer-bg.png);
+}
+
+.leave-msg {
+    color: white;
+    font-size: 20px;
+}
